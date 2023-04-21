@@ -25,6 +25,18 @@ public class DriverClass {
         System.out.println("In Order Traversal");
         bst.inOrderTraversal();
         
+        System.out.println("\n-------------------");
+        System.out.println("Pre Order Traversal");
+        bst.preOrderTraversal();
+        
+        System.out.println("\n-------------------");
+        System.out.println("Finding Height");
+        System.out.println("Height: " + bst.findHeight());
+        
+        System.out.println("\n-------------------");
+        System.out.println("Finding Depth of node: 10");
+        System.out.println("Depth: " + bst.getDepth(10));
+
         bst.print();
     }
 }
